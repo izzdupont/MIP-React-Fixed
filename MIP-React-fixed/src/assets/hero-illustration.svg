@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">IT Solutions & Security Illustration</title>
+  <desc id="desc">Cloud with shield icon connected to devices representing IT solutions, security, and monitoring.</desc>
+
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#faf7ff"/>
+      <stop offset="100%" stop-color="#f4efff"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6610f2"/>
+      <stop offset="100%" stop-color="#4a0aad"/>
+    </linearGradient>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#2e0669" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="520" fill="url(#bg)"/>
+
+  <!-- Decorative nodes / network lines -->
+  <g opacity="0.25" stroke="#6610f2" stroke-width="2">
+    <circle cx="120" cy="120" r="4" fill="#6610f2"/>
+    <circle cx="210" cy="90" r="4" fill="#6610f2"/>
+    <circle cx="290" cy="140" r="4" fill="#6610f2"/>
+    <circle cx="150" cy="200" r="4" fill="#6610f2"/>
+    <path d="M120 120 L210 90 L290 140 L150 200 Z" fill="none"/>
+    <circle cx="770" cy="110" r="4" fill="#6610f2"/>
+    <circle cx="680" cy="160" r="4" fill="#6610f2"/>
+    <circle cx="810" cy="200" r="4" fill="#6610f2"/>
+    <path d="M770 110 L680 160 L810 200 Z" fill="none"/>
+  </g>
+
+  <!-- Main cloud -->
+  <g transform="translate(220,90)" filter="url(#soft)">
+    <path d="M380 120c0-44-34-80-76-80-8 0-15 1-22 3-16-23-43-39-73-39-44 0-80 30-89 70-5-2-11-3-17-3-32 0-58 26-58 58s26 58 58 58h277c39 0 70-31 70-67s-29-62-70-62z"
+          fill="#ffffff" stroke="#e8e3ff" stroke-width="2"/>
+  </g>
+
+  <!-- Shield in the cloud -->
+  <g transform="translate(420,150)" filter="url(#soft)">
+    <path d="M65 0l60 20v60c0 40-35 78-60 90-25-12-60-50-60-90V20L65 0z" fill="url(#purple)"/>
+    <path d="M65 28l22 22-8 8-14-14-14 14-8-8 22-22z" fill="#ffffff"/>
+  </g>
+
+  <!-- Connection lines from cloud to devices -->
+  <g stroke="#6610f2" stroke-width="2" opacity="0.35">
+    <path d="M485 260 C 485 340, 360 345, 320 360" fill="none"/>
+    <path d="M535 260 C 600 320, 640 330, 690 345" fill="none"/>
+    <path d="M510 260 C 500 320, 495 360, 500 395" fill="none"/>
+  </g>
+
+  <!-- Devices row -->
+  <g transform="translate(140,320)">
+
+    <!-- Laptop -->
+    <g filter="url(#soft)">
+      <rect x="0" y="0" rx="14" ry="14" width="260" height="155" fill="#ffffff" stroke="#e8e3ff" stroke-width="2"/>
+      <rect x="20" y="20" rx="10" ry="10" width="220" height="100" fill="#f9f7ff"/>
+      <rect x="20" y="125" width="220" height="12" rx="6" fill="#efe9ff"/>
+      <circle cx="130" cy="131" r="3" fill="#6610f2"/>
+      <g opacity="0.6" stroke="#6610f2">
+        <rect x="35" y="32" width="80" height="10" rx="5" fill="#6610f2"/>
+        <rect x="35" y="52" width="60" height="8" rx="4" fill="#6610f2" opacity="0.8"/>
+        <rect x="35" y="68" width="140" height="8" rx="4" fill="#6610f2" opacity="0.4"/>
+        <rect x="35" y="84" width="110" height="8" rx="4" fill="#6610f2" opacity="0.25"/>
+      </g>
+    </g>
+
+    <!-- Phone -->
+    <g transform="translate(300,20)" filter="url(#soft)">
+      <rect x="0" y="0" rx="18" ry="18" width="90" height="150" fill="#ffffff" stroke="#e8e3ff" stroke-width="2"/>
+      <rect x="12" y="18" rx="10" ry="10" width="66" height="100" fill="#f9f7ff"/>
+      <rect x="30" y="128" width="30" height="8" rx="4" fill="#efe9ff"/>
+      <g opacity="0.7">
+        <rect x="20" y="30" width="50" height="8" rx="4" fill="#6610f2"/>
+        <rect x="20" y="46" width="40" height="6" rx="3" fill="#6610f2" opacity="0.6"/>
+        <rect x="20" y="60" width="46" height="6" rx="3" fill="#6610f2" opacity="0.35"/>
+        <rect x="20" y="74" width="36" height="6" rx="3" fill="#6610f2" opacity="0.25"/>
+      </g>
+    </g>
+
+    <!-- Server/NAS -->
+    <g transform="translate(430,-10)" filter="url(#soft)">
+      <rect x="0" y="0" rx="12" ry="12" width="160" height="190" fill="#ffffff" stroke="#e8e3ff" stroke-width="2"/>
+      <rect x="20" y="24" width="120" height="28" rx="6" fill="#efe9ff"/>
+      <rect x="20" y="64" width="120" height="28" rx="6" fill="#efe9ff"/>
+      <rect x="20" y="104" width="120" height="28" rx="6" fill="#efe9ff"/>
+      <g fill="#6610f2">
+        <circle cx="28" cy="38" r="3"/>
+        <circle cx="28" cy="78" r="3"/>
+        <circle cx="28" cy="118" r="3"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Subtext tag -->
+  <g transform="translate(260,470)" opacity="0.9">
+    <rect x="0" y="-26" rx="13" ry="13" width="380" height="32" fill="#ffffff" stroke="#e8e3ff"/>
+    <g transform="translate(12,-16)">
+      <circle cx="12" cy="12" r="6" fill="#6610f2"/>
+      <text x="28" y="16" font-family="Inter, Arial, sans-serif" font-size="14" fill="#4a0aad">
+        IT Solution • Cybersecurity • Network Monitoring
+      </text>
+    </g>
+  </g>
+</svg>
